@@ -1,0 +1,226 @@
+html{ scroll-behavior: smooth;
+}
+body {
+  font-family: 'Nunito';
+  background: white;
+  background-size: cover;
+  margin: 0;
+}
+
+a{
+  color:rgb(236, 231, 231);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #87A5AF;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #87A5AF;
+}
+
+.page-one {
+  background-image: url("./assets/Ilet-Martinique-Randonnée.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-two {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  display: flex;
+}
+
+.page-three {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+
+.map-martinique {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
+
+
+.description {
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.description p {
+  margin: 10%;
+  margin-top: 30%;
+}
+
+.top {
+  width: 100%;
+  height: 49vh;
+  display: flex;
+}
+
+.top-left-picture {
+  margin: 5px;
+  width: 60%;
+  height: 100%;
+  background-image: url("./assets/Fonds\ dcran\ Martinique\ tous\ les\ wallpapers\ Martinique\ \(1\).jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-right-picture {
+  margin: 5px;
+  width: 40%;
+  height: 100%;
+  background-image: url("./assets//Image\ loupgarou.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  margin-top: 5px;
+  width: 100%;
+  height: 49vh;
+  display: flex;
+}
+
+.bottom-left-picture {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-image: url("./assets/d2e7880c-04b0-49bd-80d6-a9ddb6208cee.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom-right-picture {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-image: url("./assets/Coucher.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-four {
+  background-image: url("./assets/d2e7880c-04b0-49bd-80d6-a9ddb6208cee.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-five { 
+  background-color: rgb(238, 229, 229);
+  color: black;
+  display: flex;
+  text-align: center;
+  font-size : 30px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  
+  
+}
+.activites {
+  margin: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.activites p {
+  width: 50%;
+}
+.activites img {
+  width: 50%;
+
+}
+.tops {
+  width: 100%;
+  height: 49vh;
+  display: flex;
+}
+
+.top-left-pictures {
+  margin: 5px;
+  width: 60%;
+  height: 100%;
+  background-image: url("./assets/Ilet-Martinique-Randonnée.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-right-pictures {
+  margin: 5px;
+  width: 40%;
+  height: 100%;
+  background-image: url("./assets/archipel-rando-morne-larcher-martinique_6.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottoms {
+  margin-top: 5px;
+  width: 100%;
+  height: 49vh;
+  display: flex;
+}
+
+.bottom-left-pictures {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-image: url("./assets/anse-couleuvre-martinique.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom-right-pictures {
+  margin: 5px;
+  width: 50%;
+  height: 100%;
+  background-image: url("./assets/");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button {
+  background-color: transparent;
+  border: 4px solid rgb(255, 255, 255);
+  
+}
+button a {
+  font-size: 28px;
+  color:rgb(255, 255, 255)
+}
